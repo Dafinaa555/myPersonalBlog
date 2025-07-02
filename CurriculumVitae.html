@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CURRICULUM VITAE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            background: url("images/background.jpg") no-repeat;
+            height: 100vh;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            overflow: hidden;
+        }
+
+        body > footer > h3{
+            padding-bottom: 5px;
+            font-weight: lighter;
+        }
+        body > nav > ul{
+            list-style-type: none;
+            overflow: hidden;
+            margin-top: 0;
+            margin-left: 840px;
+            height: 32px;
+        }
+        body > nav > ul > li{
+            float: left;
+            padding-right: 10px;
+            padding-right: 10px;
+        }
+        body > nav > ul > li > a{
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            color: darkgrey;
+            display: block;
+            padding: 15px;
+        }
+        body > nav > ul > li:nth-child(3) > a{
+            color: #040457;
+        }
+        body > nav > ul > li > a:hover{
+            color: #040457;
+        }
+
+        ul.social{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            margin: 40px;
+            margin-right: 10px;
+            padding: 0;
+            gap: 10px;
+            position: fixed;
+            bottom:0px;
+            right: 0px;
+        }
+        body > ul > li{
+            width: 30px;
+            height: 30px;
+        }
+        ul.social > li > img{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+        }
+
+        .container > h1{
+            display: flex;
+            font-family: "Libertinus Math", system-ui;
+            color: #7474d3;
+            top: 300px;
+            margin-top: 295px;
+        }
+        body > div > div > img{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 242px;
+            margin-top: 20px;
+            margin-left: -35px;
+        }
+        body > div > div > p{
+            display: inline-block;
+            color: white;
+            float: left;
+            line-height: 30px;
+            margin-right: -58px;
+        }
+        .sidebar {
+            width: 300px;
+            height: 100vh;
+            background: url("images/blue.jpg") no-repeat;
+            background-size: cover;
+            padding: 20px;
+            color: white;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        .profile-pic {
+            display: block;
+            height: 250px;
+            width: 250px;
+            border-radius: 137px;
+            margin-left: 105px;
+            top: 20px;
+        }
+
+        .profile-pic img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .name {
+            text-align: center;
+            margin: 10px 0 5px;
+            font-size: 20px;
+            margin-bottom: -49px;
+        }
+
+
+        .section {
+            margin-top: 60px;
+        }
+
+        .section h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #0f8bf1;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        body > div > div:nth-child(4) > img{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: -2px;
+        }
+        .section {
+            padding: 20px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .section h2 {
+            color: #0f8bf1;
+            margin-bottom: 24px;
+            margin-top: -25px;
+            margin-left: 24px;
+            font-size: 18px;
+        }
+
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .skill span {
+            width: 103px;
+            font-size: 14px;
+        }
+
+        footer{
+            background-color: #040457;
+            color: white;
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            width: 100%;
+            position: fixed;
+            margin-top: 700px;
+            align-items: center;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="CurriculumVitae.html">CV</a></li>
+        <li><a href="education.html">Education</a></li>
+    </ul>
+</nav>
+
+
+<div class="sidebar">
+    <div class="profile-pic">
+        <img src="images/cvPhoto.jpg">
+    </div>
+    <h1 class="name">Dafina Razmoska</h1>
+
+    <div class="section">
+        <h3><img src="images/contact.png" class="icon"> Contact</h3>
+        <p><strong>Email:</strong> dafina.razmoska12@gmail.com</p>
+        <p><strong>Phone:</strong> +389 71 790 255</p>
+    </div>
+
+    <div class="section">
+        <img src="images/skills.png">
+        <h2>Skills</h2>
+
+        <div class="skill">
+            <span>Web Design</span>
+        </div>
+
+        <div class="skill">
+            <span>Problem solving</span>
+        </div>
+
+        <div class="skill">
+            <span>Communication</span>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <h3>All rights reserved</h3>
+</footer>
+
+</body>
+</html>
